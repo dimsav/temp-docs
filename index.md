@@ -9,7 +9,9 @@ layout: home
 
 EveryPay provides a REST API, where all the responses are given in JSON format.
 
-For a quick demo of how to make a payment, visit the [Payment Demo]({% link payment-demo.md %}).
+## Demo
+ 
+For a demo of how to make a payment, visit the [Payment Demo]({% link payment-demo.md %}).
 
 ## Key Concepts
 
