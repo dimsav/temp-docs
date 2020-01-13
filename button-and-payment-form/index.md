@@ -2,12 +2,19 @@
 layout: default
 title: Button and Form
 nav_order: 2
-has_children: true
+---
+# Button and Form 
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
-# EveryPay Script
-
-The script is responsible for generating the frontend code required to let the customers 
+EveryPay provides a script which is responsible for generating the frontend code required to let the customers 
 fill the card form details securely.
 
 For security and legal reasons, the customer's card details have to be inserted in a form provided
@@ -16,7 +23,7 @@ by EveryPay within an iFrame. There are two ways of integrating a card form into
 1. Using the Button
 2. Using the Inline Form 
 
-## Installation
+# Installation
 
 To install the script, we first need to insert the following code into the html part of our e-commerce 
 site. 
@@ -106,7 +113,12 @@ To insert the form, we need a container located inside an html `<form>`.
 </script>
 ```
 
-To learn more about how to define the options property, see below.
+To learn more about how to define the options property, see the options page.
+
+
+
+# Options
+
 
 ## Global Options
 
