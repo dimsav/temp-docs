@@ -44,7 +44,7 @@ function initNav() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', '//dimsav.github.io/temp-docs/assets/js/search-data.json', true);
+  request.open('GET', 'https://dimsav.github.io/temp-docs/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {

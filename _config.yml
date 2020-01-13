@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Online payment processing for internet and retail businesses.
   EveryPay offers payment APIs that powers commerce for businesses of all sizes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dimsav.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  everypay
 
