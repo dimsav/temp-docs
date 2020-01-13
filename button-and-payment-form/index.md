@@ -241,7 +241,7 @@ A string containing the error message to display. This will place the input stri
 below the card input. If `showError('Invalid card')` is executed, then the message will
 appear like so:
 
-![Invalid card](/assets/screen-1.png)
+![Invalid card]({{ site.url }}/{{ site.baseurl }}/assets/img/screen-1.png)
 
 ```html
 <script>
@@ -281,7 +281,7 @@ everypay.button('#button-container', {
 </script>
 ```
 
-![Invalid card](/assets/screen-2.png)
+![Invalid card]({{ site.url }}/{{ site.baseurl }}/assets/img/screen-2.png)
 
 The showError will return a user friendly message, depending on the error code we received from the 
 payment API call.
